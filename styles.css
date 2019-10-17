@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+.container {
+    height: 500px;
+    width: 400px;
+    background-color: rgb(96,170,80);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96,170,80);
+    color: rgb(232, 243, 229);
+    font-size: 30px;
+}
+section {
+    width: 300px;
+    height: 100px;
+    color: red;
+    text-align: center;
+    line-height: 2;
+    font-size: 50px;
+    overflow: auto;
+}
+
+#divide, #multiply, #subtract, #add {
+    color: rgb(48, 69, 43);
+    background-color: rgb(124, 185, 111);
+}
